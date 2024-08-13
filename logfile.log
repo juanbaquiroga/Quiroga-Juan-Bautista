@@ -1,0 +1,35 @@
+[2024-08-13 17:47:28] [ INFO ] [Main:6] [main] aaaaa
+[2024-08-13 20:12:11] [ ERROR] [OdontologoServiceTest:31] [cargarTablas] Syntax error in SQL statement "\000a\000aCREATE TABLE ODONTOLOGOS(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aMATRICULA VARCHAR(25) NOT NULL,\000aNOMBRE VARCHAR(25) NOT NULL,\000aAPELLIDO VARCHAR(25) NOT NULL,\000a[*])"; expected "identifier"; SQL statement:
+
+
+CREATE TABLE ODONTOLOGOS(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+MATRICULA VARCHAR(25) NOT NULL,
+NOMBRE VARCHAR(25) NOT NULL,
+APELLIDO VARCHAR(25) NOT NULL,
+) [42001-230]
+[2024-08-13 20:13:29] [ ERROR] [OdontologoServiceTest:31] [cargarTablas] Syntax error in SQL statement "\000a\000aCREATE TABLE ODONTOLOGOS(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aMATRICULA VARCHAR(25) NOT NULL,\000aNOMBRE VARCHAR(25) NOT NULL,\000aAPELLIDO VARCHAR(25) NOT NULL,\000a[*])"; expected "identifier"; SQL statement:
+
+
+CREATE TABLE ODONTOLOGOS(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+MATRICULA VARCHAR(25) NOT NULL,
+NOMBRE VARCHAR(25) NOT NULL,
+APELLIDO VARCHAR(25) NOT NULL,
+) [42001-230]
+[2024-08-13 20:13:56] [ ERROR] [OdontologoServiceTest:31] [cargarTablas] Syntax error in SQL statement "\000a\000aCREATE TABLE ODONTOLOGOS(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aMATRICULA VARCHAR(25) NOT NULL,\000aNOMBRE VARCHAR(25) NOT NULL,\000aAPELLIDO VARCHAR(25) NOT NULL,\000a[*])"; expected "identifier"; SQL statement:
+
+
+CREATE TABLE ODONTOLOGOS(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+MATRICULA VARCHAR(25) NOT NULL,
+NOMBRE VARCHAR(25) NOT NULL,
+APELLIDO VARCHAR(25) NOT NULL,
+) [42001-230]
+[2024-08-13 20:14:10] [ INFO ] [OdontologoDaoH2:36] [guardar] paciente persistido Odontologo{id=3, numeroMatricula='h73889', nombre='mariano', apellido='closs'}
+[2024-08-13 20:18:23] [ INFO ] [OdontologoDaoH2:81] [buscarTodos] Odontologo{id=1, numeroMatricula='B1234', nombre='JUAN', apellido='PEREZ'}
+[2024-08-13 20:18:23] [ INFO ] [OdontologoDaoH2:81] [buscarTodos] Odontologo{id=2, numeroMatricula='C5678', nombre='MARIO', apellido='GOMEZ'}
+[2024-08-13 20:25:12] [ INFO ] [OdontologoDaoMemoria:18] [guardar] odontologo guardado: Odontologo{id=1, numeroMatricula='h73889', nombre='mariano', apellido='closs'}
+[2024-08-13 20:29:24] [ INFO ] [OdontologoDaoMemoria:18] [guardar] odontologo guardado: Odontologo{id=1, numeroMatricula='h73889', nombre='mariano', apellido='closs'}
+[2024-08-13 20:29:24] [ INFO ] [OdontologoDaoMemoria:18] [guardar] odontologo guardado: Odontologo{id=1, numeroMatricula='b1234', nombre='juan', apellido='perez'}
+[2024-08-13 20:29:24] [ INFO ] [OdontologoDaoMemoria:18] [guardar] odontologo guardado: Odontologo{id=2, numeroMatricula='c5678', nombre='mario', apellido='gomez'}
